@@ -10,9 +10,13 @@ header {
   header {
     height: 100px;
   }
-  
+
   .child-flex-container {
     display: flex;
+  }
+
+  .child-flex-container article {
+    width: 190px;
   }
   
   .child-flex-container section {
@@ -24,5 +28,16 @@ header {
     float: left;
     width: 200px;
     height: 600px;
+  }
+
+  article {
+    width: 190px;
+    height: 250px;
+  }
+
+  .parent-flex-container #last {
+    display: flex;
+    /* width: 760px; */
+    height: 150px;
   }
 }
