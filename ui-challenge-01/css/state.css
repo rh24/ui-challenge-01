@@ -28,7 +28,7 @@
   }
 }
 
-@media all and (min-width: 481px) {
+@media all and (min-width: 480px) {
   header {
     height: 100px;
     background-color: goldenrod;
@@ -36,10 +36,10 @@
 
   .child-flex-container {
     display: flex;
+    align-content: stretch;
   }
 
   .child-flex-container article {
-    align-content: stretch;
     width: 190px;
     height: 250px;
     background-color: burlywood;
