@@ -6,7 +6,7 @@ header {
   display: flex;
 }
 
-@media only screen and (min-width: 481px) {
+@media all and (min-width: 481px) {
   header {
     height: 100px;
   }
@@ -16,7 +16,20 @@ header {
   }
 
   .child-flex-container article {
+    align-content: stretch;
+    flex-wrap: wrap;
+    height: 250px;
     width: 190px;
+  }
+
+  .make-me-stretch {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+  }
+
+  .make-me-stretch article {
+    height: 250px;
   }
   
   .child-flex-container section {
@@ -30,14 +43,8 @@ header {
     height: 600px;
   }
 
-  article {
-    width: 190px;
-    height: 250px;
-  }
-
   .parent-flex-container #last {
     display: flex;
-    /* width: 760px; */
     height: 150px;
   }
 }

@@ -1,7 +1,7 @@
 /* when breaking at mobile, everything but article elements are at 480px width */
 /* article elements will be 280px width */
 
-@media only screen and (max-width: 480px) {
+@media all and (max-width: 480px) {
   body {
     width: 480px;
   }
