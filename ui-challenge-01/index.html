@@ -16,16 +16,23 @@
   <!-- letters should be centered horizontally and vertically -->
   <header><p>a</p></header>
   <main>
-    <aside><p>b</p></aside>
-    <section><p>c</p></section>
-    <section><p>d</p></section>
-    <div class="mobile-flex-container">
-      <article><p>e</p></article>
-      <article><p>f</p></article>
-    </div>
-    <div class="mobile-flex-container">
-      <article><p>g</p></article>
-      <article><p>h</p></article>
+    <!-- float left or flex -->
+    <aside class="parent-flex-container"><p>b</p></aside>
+    <div class="parent-flex-container">
+      <div class="child-flex-container">
+        <section><p>c</p></section>
+        <section><p>d</p></section>
+      </div>
+      <div class="child-flex-container">
+        <div class="mobile-flex-container">
+          <article><p>e</p></article>
+          <article><p>f</p></article>
+        </div>
+        <div class="mobile-flex-container">
+          <article><p>g</p></article>
+          <article><p>h</p></article>
+        </div>
+      </div>
     </div>
     <section id="last"><p>i</p></section>
   </main>
