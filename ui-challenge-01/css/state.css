@@ -27,3 +27,35 @@
     height: 80px;
   }
 }
+
+@media all and (min-width: 481px) {
+  header {
+    height: 100px;
+  }
+
+  .child-flex-container {
+    display: flex;
+  }
+
+  .child-flex-container article {
+    align-content: stretch;
+    width: 190px;
+    height: 250px;
+  }
+  
+  .child-flex-container section {
+    width: 760px;
+    height: 200px;
+  }
+
+  aside {
+    float: left;
+    width: 200px;
+    height: 600px;
+  }
+
+  .parent-flex-container #last {
+    display: flex;
+    height: 150px;
+  }
+}

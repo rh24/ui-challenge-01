@@ -6,45 +6,8 @@ header {
   display: flex;
 }
 
-@media all and (min-width: 481px) {
-  header {
-    height: 100px;
-  }
-
-  .child-flex-container {
-    display: flex;
-  }
-
-  .child-flex-container article {
-    align-content: stretch;
-    flex-wrap: wrap;
-    height: 250px;
-    width: 190px;
-  }
-
-  .make-me-stretch {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: stretch;
-  }
-
-  .make-me-stretch article {
-    height: 250px;
-  }
-  
-  .child-flex-container section {
-    width: 760px;
-    height: 200px;
-  }
-
-  aside {
-    float: left;
-    width: 200px;
-    height: 600px;
-  }
-
-  .parent-flex-container #last {
-    display: flex;
-    height: 150px;
-  }
+.center-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
