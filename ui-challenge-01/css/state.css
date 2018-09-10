@@ -1,4 +1,4 @@
-@media all and (max-width: 480px) {
+@media all and (max-width: 768px) {
   body {
     width: 480px;
   }
@@ -12,6 +12,12 @@
     background-color: seagreen;
   }
 
+  .child-flex-container {
+    display: flex;
+    width: 480px;
+    flex-wrap: wrap;
+  }
+
   article {
     width: 240px;
     height: 250px;
@@ -19,6 +25,7 @@
   }
 
   section {
+    width: 480px;
     height: 125px;
     background-color: pink;
   }
@@ -28,7 +35,7 @@
   }
 }
 
-@media all and (min-width: 480px) {
+@media all and (min-width: 768px) {
   header {
     height: 100px;
     background-color: goldenrod;
