@@ -8,4 +8,9 @@ section {
 
 article {
   background-color: orange;
+  /* width: 100%; */
+}
+
+#last {
+  height: 80px;
 }

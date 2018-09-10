@@ -2,6 +2,6 @@ header {
   background-color: blue;
 }
 
-.flex-container {
+.mobile-flex-container {
   display: flex;
 }
