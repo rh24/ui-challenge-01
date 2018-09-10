@@ -1,10 +1,14 @@
-# Lab 1: SMACSS and Responsive Web Design
+# UI Challenge 1: SMACSS and Responsive Web Design
 
 ## Overview
 
 In lab today, you will be building a single responsive webpage based off of the provided design comp assets. The design comps can be found in the adjacent [`comps` folder](./comps). These contain images of what you are striving to build in HTML and CSS, so be sure to open them up and keep them handy, but note that they are not for actual use on the page. You can also print out these comps and use them to mark up and sketch out page structure.
 
 Your document must be designed in a ***mobile-first*** approach and must be responsive when the screen size changes and the page is refreshed. The details of the media query specifications are up to you, but your breakpoint must be at 768 pixels.
+
+You may use any combination of floats and flexbox to complete this challenge.
+
+**You do not have starter code for today, so you should create a new repo from scratch to hold your work.**
 
 This is an independent project, but your are free to collaborate with your classmates.
 
@@ -16,7 +20,7 @@ This is an independent project, but your are free to collaborate with your class
 
 ## Feature Tasks
 
-- Create a new repository named `lab-01`.
+- Create a new repository named `ui-challenge-01`.
 - Work on a non-master branch.
 - Use good HTML structure to scaffold this site, using semantic elements where possible.
 - Container elements (a box outside of your content box that might contain multiple content boxes) are very useful in managing layout. You will need to think about the relationship between parent and child / descendant elements as well as the order in which you place them in the HTML. Be thoughtful about your layout strategy.
