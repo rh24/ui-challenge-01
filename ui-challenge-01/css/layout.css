@@ -1,0 +1,13 @@
+header {
+  background-color: blue;
+}
+
+.mobile-flex-container {
+  display: flex;
+}
+
+.center-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
